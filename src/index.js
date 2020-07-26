@@ -8,4 +8,3 @@ function validarCard() {
   console.log(arraynumber);
   let reversedcard = arraynumber.reverse();
   console.log(reversedcard);
-}
