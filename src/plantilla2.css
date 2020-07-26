@@ -1,0 +1,34 @@
+form{
+margin: 80px 80px 10px 80px;
+}
+label{
+float: left;
+margin: 0px 20px 20px 700px;
+color: blue;
+font-size: 25px;
+font-weight: bold;
+font-family: fantasy;
+}
+
+input{
+  float:right;
+  margin: 0px 760px 20px 20px;
+   border-radius: 5px;
+   width: 100px
+   
+
+}
+.logo{
+
+  margin: 30px 20px 70px 40px;
+
+}
+.terapy{
+  margin: 30px 20px 50px 30px;
+}
+
+.PAGAR{
+  margin: auto;
+  display: block;
+  margin: 80px 50px 20px 60px;
+}

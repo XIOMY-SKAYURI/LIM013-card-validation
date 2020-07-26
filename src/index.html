@@ -2,17 +2,43 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Validación de tarjeta de crédito</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header></header>
 
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-    <script src="validator.js" type="text/javascript">
+    <form action="">
+      <div class="logo-institución">
+        <center>
+         <img src="D:\LABORATORIA\tarjeta de credito\imagenes\LOGOCARD.png" alt="logo" title="TERAPIA SOFIA" width="90px" id="logo">
+       </center>
+       </div>
 
-    </script>
-  </body>
+      <p> <center> INFORMACIÓN DE LA FACTURACIÓN </center> </p>
+      <div>
+           <img src="https://seranoticia.com/wp-content/uploads/2019/01/visa.jpg" class="imagecardi" "alt="tarjeta visa">
+          <img src="https://www.muypymes.com/wp-content/uploads/2019/10/Mastercard1-1280x720.jpg"  class="imagecardd"  alt="tarjeta mastercard"><br/>
+      </div>
+
+      <p>
+          <center>
+ <label for="numberCard"><strong>Número de tarjeta:</strong></label>
+ <input type="text" maxlength="16" name="numerodetarjeta" id="numberCard" placeholder="Ingrese su número de tarjeta" id="numberCard" required autofocus class="numberCard">
+          </center>
+     </p>
+
+    <label for="mesexpiracion"><strong>Mes de expiración</strong> </label> <br/>
+    <input type="text" name="mesexpiracion" id="mesexpiracion" id="mesexpiracion"/><br/>
+
+
+    <label for="añoexpiracion"><strong>Año de expiración</strong> </label><br/>
+    <input type="text"
+     name="añoexpiracion" class="box2" id="añoexpiracion"/> <br/>
+
+    <button id="validarNumber"> <span class="validarNumber">Validar</span></button>
+
+  </form>
+   </body>
+   <script src="script.js"></script>
 </html>
