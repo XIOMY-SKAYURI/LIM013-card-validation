@@ -22,21 +22,30 @@
       </div>
 
       <div class="number">
-     <label for="numberCard"><strong>Número de tarjeta:</strong> </label> <br/>
+     <label for="numberCard"><strong>NÚMERO DE TARJETA:</strong> </label>
      <input type="text"
       maxlength="16" name="numerodetarjeta" class="box1"
       placeholder="Ingrese su número de tarjeta"
-      id="numberCard" required autofocus > <br/>
+      id="numberCard" required autofocus >
    </div>
 
-    <label for="mesexpiracion" class="mesexpiraciontext"><strong>Mes de expiración</strong> </label> <br/>
-    <input type="text" name="mesexpiracion" id="mesexpiracion" id="mesexpiracion"/><br/>
+  <table>
+    <tr>
+      <td>
+    <label for="mesexpiracion" class="mesexpiraciontext"><strong>MES DE EXPIRACIÓN</strong> </label> <br/>
+    <input type="text" name="mesexpiracion" id="mesexpiracion" class="box2"/>
+     </td>
+     <td>
+  <label for="mesexpiracion" class="relleno"></strong> </label>
+    </td>
 
-
-    <label for="añoexpiracion" class="añoexpiraciontext"><strong>Año de expiración</strong> </label><br/>
+     <td>
+    <label for="añoexpiracion" class="añoexpiraciontext"><strong>AÑO DE EXPIRACIÓN</strong> </label><br/>
     <input type="text"
-     name="añoexpiracion" class="box2" id="añoexpiracion"/> <br/>
-
+     name="añoexpiracion" class="box3" id="añoexpiracion"/>
+   </td>
+   </tr>
+ </table>
     <button id="validarNumber"> <span class="validarNumber">VALIDAR</span></button>
 
   </form>

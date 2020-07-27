@@ -5,7 +5,7 @@ opacity: 0.6;
 form{
   margin: 180px 280px 280px 450px;
   width:1000px;
-  height: 500px;
+  height: 700px;
 	padding:16px;
 	border-radius:10px;
   border-color: blue;
@@ -26,37 +26,28 @@ img {width: 150px; height: 40px
   margin-right: auto;
   margin: 10px 9px 30px 10px;
 }
-.numberCard{
-	width:168px;
-  height:30PX;
-  font-family:monospace;
-  font-size: smaller;
-	font-weight:bolder;
-  display:inline;
 
-}
+
 
 .imagecardd{
 float: right;
-margin: 0px 250px 10px 0px;
+margin: 0px 250px 50px 0px;
 }
 
 .imagecardi{
 float: left;
-margin: 0px 10px 0px 250px;
+margin: 0px 50px 0px 250px;
 }
 
-.mesexpiracion{
-  display: block;
-  margin: .5em 0 0 0;
-  width: 250px;
-  float: left;
+.mesexpiraciontext{
+  font-family:monospace;
+  font-size:x-large;
+
   }
-.añoexpiracion{
-  display: block;
-  margin: .20em 0 0 0;
-  width: 250px;
-  float: right;
+.añoexpiraciontext{
+  font-family:monospace;
+  font-size:x-large;
+
     }
 button{
   display:block;
@@ -65,11 +56,35 @@ button{
     color: blue;
     width: 95px;
     height: 60px
+}
+table{
+  display: block;
+  margin: 30px 90px 30px 250px;
 
 }
-.numberCardText{
-  display:block;
-    margin-left: auto;
-    margin-right: auto;
-      margin: 0px 70px 80px 40px;
+.number{
+  font-family:monospace;
+  font-size:x-large;
+  margin: 120px 20px 20px 280px;
+}
+
+.box1{
+  margin: 0px 0px 0px 0px;
+  width: 200px;
+  height:30px;
+}
+
+.box2{
+  width: 60px;
+  height:30px;
+  margin: 0px 60px 0px 60px;
+}
+
+.box3{
+  width: 60px;
+  height:30px;
+  margin: 0px 30px 0px 50px;
+}
+.relleno{
+  margin: 0px 50px 0px 80px;
 }

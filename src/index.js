@@ -4,7 +4,5 @@ validarnumber.addEventListener("click", validarCard);
 function validarCard() {
   let numberCard = document.getElementById("numberCard").value;
   console.log(numberCard)
-  let arraynumber = numberCard.split("");
-  console.log(arraynumber);
-  let reversedcard = arraynumber.reverse();
-  console.log(reversedcard);
+  let creditCardNumber = numberCard.split("");
+  console.log(creditCardNumber);
