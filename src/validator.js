@@ -2,7 +2,7 @@
 const validator = {
   isValid: function(creditCardNumber){
     let suma=0;
-    for(let i=0;i < creditCardNumber.length;i++)^{
+    for(let i=0;i < creditCardNumber.length;i++){
       if (i%2==0){
         if (creditCardNumber*2>9){
 let creditCardNumberpar=1+(creditCardNumber%10);
@@ -26,7 +26,7 @@ let creditCardNumberpar=1+(creditCardNumber%10);
 
 
 
-  miskyfy: function(creditCardNumber){
+  /*---miskyfy: function(creditCardNumber){
     let longitud=creditCardNumber.length;
     let resultado="";
     if(longitud>4){
@@ -46,4 +46,4 @@ return resultado
 
 };
 
-export default validator;
+export default validator;*/
