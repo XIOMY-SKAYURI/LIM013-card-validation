@@ -1,25 +1,35 @@
 
 const validator = {
-  isValid: function luhn (creditCardNumber){
-    let suma=0;
-    for(let i=0;i < creditCardNumber.length;i++){
-      console.log(creditCardNumber[i]);
-           if (i%2==0){
-        if (creditCardNumber*2>9){
-let creditCardNumberpar=1+(creditCardNumber%10);
+  isValid: function (creditCardNumber){
+    let suma = 0;
+    let orden=0;
+    let orden1=0;
+    let orden2=0;
+     for (let i=0; i<creditCardNumber.length;i++){
+      let orden=parseInt(creditCardNumber[i]);
+      if (i%2==0){
+        orden=orden*2;
+        if (orden>9){
+          orden1=1+ (orden%10);
+        }else { orden2= orden*2;
+          suma=orden+orden1+orden2;}
+     if (suma%10==0){
+        return alert("LA TARJETA ES VÁLIDA");
+      }else{
+        return alert("LA TARJETA ES INVÁLIDA");
 
-}else  }creditCardNumber=creditCardNumber*2
       }
-    }
-    suma= creditCardNumber+creditCardNumberpar;
-  }
-  if (suma%10==0);{
-    return alert("LA TARJETA ES VÁLIDA")
-  }else{
-    return alert("LA TARJETA ES INVÁLIDA")
 
-  }
-luhn ()
+    }
+    }
+    }
+
+
+
+
+
+
+
 
   /*---miskyfy: function(creditCardNumber){
     let longitud=creditCardNumber.length;
@@ -39,6 +49,6 @@ luhn ()
 return resultado
   }
 
-};*/
+};
 
-export default validator;
+export default validator;*/
