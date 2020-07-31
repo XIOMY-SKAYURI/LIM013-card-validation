@@ -1,12 +1,19 @@
 import validator from './validator.js';
-console.log(validator);
-let validarnumber = document.getElementById("validarNumber");
-validarnumber.addEventListener("click", validarCard);
-if(validarnumber=="")
 //Preguntar por el número de la tarjeta
-function validarCard() {
-  let numberCard = document.getElementById("numberCard").value;
-  console.log(numberCard);
-  let creditCardNumber = numberCard.split("");
-  console.log(creditCardNumber);
-}
+let numberCardt = document.getElementById("numberCard").value;
+console.log(numberCardt);
+
+//Vincular al botón
+let validarnumber = document.getElementById("validarNumber");
+validarnumber.addEventListener("click", validator);
+
+
+
+ //resultados de validación
+/* let result = validator.isValid;
+
+if (result==true){
+  alert("LA TARJETA ES VÁLIDAD");
+}else{
+  alert("LA TARJETA ES INVÁLIDAD");
+}*/
