@@ -6,7 +6,7 @@
 #Resumen:
  El proyecto Terapia 21 es una aplicación que permite a los padres de familia con hijos con habilidades diferentes hacer pagos online de las terapías que sus hijos reciben de forma virtual.
 
-#Proyecto final:
+#Proyecto final✌:
 
 #Investigación UX:
 -Los usuarios son los padres de familia que tienen que hacer el pago de las terapias de forma online

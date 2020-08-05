@@ -1,74 +1,117 @@
-body { background-image:url("https://i.pinimg.com/originals/a6/95/00/a6950043c84a02344047ba326ec293bc.jpg");
-opacity: 0.6;
+body {
+/* Origen de la imagen*/
+background-image:url("img/3200.jpg");
+opacity: 0.8;
+/*La imagen no debe reprtirse*/
+background-repeat: no-repeat;
+/*Fijamos la imagen en la pantala*/
+background-attachment: fixed;
+/*Fijar la imagen de fondo vertical y horizontal y centrado*/
+background-position: center center;
+/*La imagen ocupará el 100% */
+background-size: cover;
+/*Damos color mientras carga la imagen*/
+ background-color: #464646;
+ width: 100%;
 }
 
+
+
 form{
-  margin: 180px 280px 280px 450px;
-  width:1000px;
-  height: 700px;
+  margin: 180px 680px 280px 550px;
+  width:700px;
+  height: 1100px;
 	padding:16px;
 	border-radius:10px;
   border-color: blue;
   border: 1px dotted #999;
 	background-color:rgb(141, 211, 233);
-
-
 }
+
+
 .info{
   style= color:blue;
-   font-size: 50px;
+   font-size: 20px;
    font-weight: bold;
-   font-family: fantasy;
+   font-family:sans-serif;
+   text-decoration: underline wavy black;
 }
 
-img {width: 150px; height: 40px
+img {width: 100px; height: 40px
   margin-left:auto;
   margin-right: auto;
   margin: 10px 9px 30px 10px;
 }
 
-
+.terapy{width: 400px; ;
+  margin-left:auto;
+  margin-right: auto;
+}
 
 .imagecardd{
 float: right;
-margin: 0px 250px 50px 0px;
+margin: 0px 120px 20px 0px;
 }
 
 .imagecardi{
 float: left;
-margin: 0px 50px 0px 250px;
+margin: 0px 20px 0px 120px;
 }
 
 .mesexpiraciontext{
   font-family:monospace;
-  font-size:x-large;
+  font-size:large;
 
   }
 .añoexpiraciontext{
   font-family:monospace;
-  font-size:x-large;
+  font-size:large;
 
     }
 button{
   display:block;
     margin-left: auto;
     margin-right: auto;
-    color: blue;
+    border: :1px solid #206020;
+    color: white;
     width: 95px;
-    height: 60px
+    height: 60px;
+    cursor:pointer;
+    background: #206020;
+    font-size: large;
+    width: 70%;
+
+}
+
+button:hover{
+  background: #24b080;
+  border: 2px solid #24b080;
+  color: #fff;
 }
 table{
   display: block;
-  margin: 30px 90px 30px 250px;
+  margin: 60px 90px 50px 120px;
 
 }
 .number{
-  font-family:monospace;
+  font-family:sans-serif;
   font-size:x-large;
-  margin: 120px 20px 20px 280px;
+  margin: 60px 0px 0px 100px;
+  margin-right:auto;
+}
+.nombre{
+  font-family:serif;
+  font-size:x-large;
+  margin: 110px 0px 0px 100px;
+  margin-left:auto;
 }
 
 .box1{
+  margin: 0px 0px 0px 0px;
+  width: 200px;
+  height:30px;
+}
+.nombrespaciente{
   margin: 0px 0px 0px 0px;
   width: 200px;
   height:30px;
@@ -77,7 +120,7 @@ table{
 .box2{
   width: 60px;
   height:30px;
-  margin: 0px 60px 0px 60px;
+  margin: 0px 60px 0px 50px;
 }
 
 .box3{
@@ -87,4 +130,20 @@ table{
 }
 .relleno{
   margin: 0px 50px 0px 80px;
+}
+
+.valiNum{
+  text-align:center;
+  font-family:sans-serif;
+  font-size:x-large;
+  font-weight: bold;
+  margin: 0px 50px 0px 50px;
+}
+
+.mascara{
+text-align:center;
+    font-family:sans-serif;
+    font-size:x-large;
+    font-weight: bold;
+    margin: 0px 30px 0px 50px;
 }
