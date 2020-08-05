@@ -27,13 +27,13 @@ form{
 /*Definir borde del formulario*/
   border: 2px solid black;
 /*Marge del formulario*/
-  margin: 90px 0px 0px 650px;
+  margin: 180px 0px 0px 900px;
 }
 .logoT {
 /*Ancho del logo */
   width: 100px;
 /*Definir margen*/
-  margin: 30px 00px 20px 230px;
+  margin: 30px 00px 20px 330px;
 }
 
 .info{
@@ -63,7 +63,7 @@ form{
 }
 /*Sobre la tabla donde están las imágenes de tarjetas y el radio*/
 .tabTarjeta{
-  margin: 10px 40px 10px 100px;
+  margin: 10px 40px 10px 180px;
 }
 /*Sobre la imagen visa*/
 .imagecardi{
@@ -72,7 +72,7 @@ width: 30%;
 /*Sobre la imagen mastercard*/
 .imagecardd{
 width: 40%;
-margin:0px 0px 0px 45px;
+margin:0px 0px 0px 30px;
 }
 
 /*Sobre etiqueta y type de los nombres ingresados*/
@@ -105,7 +105,7 @@ margin:0px 0px 0px 45px;
 
 /*Sobre el mes y año ingresado*/
 .tabMesAño{
-margin: 10px 40px 10px 100px;
+margin: 10px 40px 10px 210px;
 }
 
 .mesexpiraciontext{

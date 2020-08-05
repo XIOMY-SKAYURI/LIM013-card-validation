@@ -7,15 +7,15 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-<!Creo mi formulario >
+<!--Creo mi formulario -->
   <form  id="formulario" action="">
-<!Creo un div mostrando el logo de la institución>
+<!--Creo un div mostrando el logo de la institución -->
     <div >
         <img src="img/LOGOCARD.png" alt="logo" class="logoT" title="TERAPIA SOFIA" id="logo"/>
     </div>
-<!Creo una etiqueta donde se solita la información de la tarjeta>
+<!--Creo una etiqueta donde se solita la información de la tarjeta-->
     <label for="info" class="info"><center><strong>INGRESE INFORMACIÓN SOBRE LA TARJETA</strong> </center></label> <br/>
-<!Creo un label donde se mostrará la etiqueta ACEPTAMOS y div para las tarjetas que aceptamos>
+<!--Creo un label donde se mostrará la etiqueta ACEPTAMOS y div para las tarjetas que aceptamos-->
   <label for="aceptamos" class="acepTarjeta">Aceptamos:</label><br/>
     <div class="aceptamos">
       <table class="tabTarjeta">
@@ -31,18 +31,18 @@
         </tr>
       </table>
     </div>
-<!Creo un div para pedir información sobre los nombres del titular de la tarjeta>
+<!--Creo un div para pedir información sobre los nombres del titular de la tarjeta-->
     <div class="nombre">
         <label for="nombrespaciente">Titular de la tarjeta:</label>
         <input type="text" name="nombrespaciente"  id="nombrespaciente" class="nombrespaciente" required autofocus>
     </div>
-<!Creo un div para pedir información sobre el número de la tarjeta>
+<!--Creo un div para pedir información sobre el número de la tarjeta-->
     <div class="number">
      <label for="numberCard">Número de tarjeta  : </label>
      <input type="text" maxlength="16" name="numerodetarjeta" class="numberBox" placeholder="Ingrese su número de tarjeta"
-      id="numberCard" required >
+      id="numberCard" onclick="" required >
     </div>
-<!Creo una tabla donde se pedirá información sobre mes y año de expiración>
+<!--Creo una tabla donde se pedirá información sobre mes y año de expiración-->
     <table class="tabMesAño">
       <tr>
         <td>
@@ -55,14 +55,14 @@
         </td>
       </tr>
     </table>
-<!Creo un dic pidiendo información del cvv>
+<!--Creo un dic pidiendo información del cvv-->
     <div class="cvv">
       <label for="cvv">CVV: </label>
       <input type="text"maxlength="3" name="cvv" class="cvvBox" id="cvv" required >
     </div>
-<!Creo un boton para validar el número de tarjeta>
+<!--Creo un boton para validar el número de tarjeta-->
     <button id="validarNumber"> <span class="validarNumber">VALIDAR</span></button><br/>
-<!Creo div para mostar mensajes en la misma pantalla>
+<!--Creo div para mostar mensajes en la misma pantalla-->
     <div id="mostrarnombre" class="mostrarnombre"><p></p></div>
     <div id="mascara" class="mascara"><p></p></div>
     <div id="valiNum" class="valiNum"> <p></p></div>
