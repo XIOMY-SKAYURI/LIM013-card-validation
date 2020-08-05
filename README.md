@@ -30,28 +30,42 @@ Hacer el pago de los servicios de terapia.
 Contar con una modalidad de pago virtual de forma rápida y segura.
 
 ### 2.4 Primer prototipo
+
 * PLantilla 1 se solicita la información de la tarjeta
-![plantilla1](img/plantilla1.1.jpeg)
+![plantilla1](plantilla1.1)
 * PLantilla 2 se muestra mensaje al usuario
-![plantilla2](img/plantilla1.2.jpeg)
+![plantilla2](img/plantilla1.2)
+
 ### 2.5 Resumen del feedback
+
 * Primer feedback 🐷
 PLantilla 1 se solicita la información de la tarjeta
-![plantilla1](img/feedback1.1.jpg)
+![plantilla1](img_src/feedback1.1)
 PLantilla 2 se muestra mensaje con los resultados al usuario
-![plantilla2](img/feedback1.2.jpg)
+![plantilla2](feedback1.2)
 * Segundo feedback 🐵
 PLantilla 1 se solicita la información de la tarjeta
-![plantilla1](img/feedback2.1.jpg)
+![plantilla1](feedback2.1)
 PLantilla 2 se muestra mensaje con los resultados al usuario
-![plantilla2](img/feedback2.2.jpg)
+![plantilla2](feedback2.2)
 * Tercer feedback 🦁
 PLantilla 1 se solicita la información de la tarjeta
-![plantilla1](img/feedback3.1.jpg)
+![plantilla1](feedback3.1)
 PLantilla 2 se muestra mensaje con los resultados al usuario
 ![plantilla2](img/feedback3.2.jpg)
-### 2.6 Imagen del prototipo final
 
+### 2.6 Imagen del prototipo final
+El prototipo final desarrollado en Balsamiq
+
+  A)Pantalla 1 - Pedir información sobre la tarjeta  
+![prototipofinanpantalla1](PROYECTOCREDITCARD.PNG)
+  B)Pantalla 2 - Muestra si la tarjeta ingresada es VÁLIDA
+![prototipofinanpantalla2.1](RETIRAPROYECTTCV.PNG)
+  C)Pantalla 2 - Muestra si la tarjeta ingresada es INVÁLIDA
+  ![prototipofinanpantalla2.2](RETIRAPROYECTTCI.PNG)
+
+                 👌🌻🌴🍂
 ## 3. Proyecto final
+
 El proyecto final se ajustó al diseño del prototipo final
-![proyectofinal](img/proyectofinal.jpg)
+![proyectofinal](proyectofinal.jpg)
