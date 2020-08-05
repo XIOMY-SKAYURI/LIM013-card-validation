@@ -40,31 +40,31 @@ Contar con una modalidad de pago virtual de forma rápida y segura.
 
 * Primer feedback 🐷
 PLantilla 1 se solicita la información de la tarjeta
-![plantilla1](feedback1.1.jpg)
+![plantilla1](imagenes/feedback1.1.jpg)
 PLantilla 2 se muestra mensaje con los resultados al usuario
-![plantilla2](feedback1.2.jpg)
+![plantilla2](imagenes/feedback1.2.jpg)
 * Segundo feedback 🐵
 PLantilla 1 se solicita la información de la tarjeta
-![plantilla1](feedback2.1.jpg)
+![plantilla1](imagenes/feedback2.1.jpg)
 PLantilla 2 se muestra mensaje con los resultados al usuario
-![plantilla2](feedback2.2.jpg)
+![plantilla2](imagenes/feedback2.2.jpg)
 * Tercer feedback 🦁
 PLantilla 1 se solicita la información de la tarjeta
-![plantilla1](feedback3.1.jpg)
+![plantilla1](imagenes/feedback3.1.jpg)
 PLantilla 2 se muestra mensaje con los resultados al usuario
-![plantilla2](feedback3.2.jpg)
+![plantilla2](imagenes/feedback3.2.jpg)
 
 ### 2.6 Imagen del prototipo final
 El prototipo final desarrollado en Balsamiq
 
   A)Pantalla 1 - Pedir información sobre la tarjeta  
-![prototipofinanpantalla1](PROYECTOCREDITCARD.PNG)
+![prototipofinanpantalla1](imagenes/PROYECTOCREDITCARD.PNG)
   B)Pantalla 2 - Muestra si la tarjeta ingresada es VÁLIDA
-![prototipofinanpantalla2.1](RETIRAPROYECTTCV.PNG)
+![prototipofinanpantalla2.1](imagenes/RETIRAPROYECTTCV.PNG)
   C)Pantalla 2 - Muestra si la tarjeta ingresada es INVÁLIDA
-  ![prototipofinanpantalla2.2](RETIRAPROYECTTCI.PNG)
+  ![prototipofinanpantalla2.2](imagenes/RETIRAPROYECTTCI.PNG)
 
-                 👌🌻🌴🍂
+                                                           👌🌻🌴🍂
 ## 3. Proyecto final
 
 El proyecto final se ajustó al diseño del prototipo final
