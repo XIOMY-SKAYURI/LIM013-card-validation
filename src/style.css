@@ -132,7 +132,7 @@ margin: 10px 40px 10px 210px;
 .cvv{
   font-family:serif;
   font-size:x-large;
-  text-align: center;
+  margin: 0px 0px 0px 310px;
   line-height:80px;
 }
 .cvvBox{

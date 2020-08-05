@@ -32,27 +32,27 @@ Contar con una modalidad de pago virtual de forma rápida y segura.
 ### 2.4 Primer prototipo
 
 * PLantilla 1 se solicita la información de la tarjeta
-![plantilla1](plantilla1.1)
+![plantilla1](plantilla1.1.jpeg)
 * PLantilla 2 se muestra mensaje al usuario
-![plantilla2](img/plantilla1.2)
+![plantilla2](plantilla1.2.jpeg)
 
 ### 2.5 Resumen del feedback
 
 * Primer feedback 🐷
 PLantilla 1 se solicita la información de la tarjeta
-![plantilla1](img_src/feedback1.1)
+![plantilla1](feedback1.1.jpg)
 PLantilla 2 se muestra mensaje con los resultados al usuario
-![plantilla2](feedback1.2)
+![plantilla2](feedback1.2.jpg)
 * Segundo feedback 🐵
 PLantilla 1 se solicita la información de la tarjeta
-![plantilla1](feedback2.1)
+![plantilla1](feedback2.1.jpg)
 PLantilla 2 se muestra mensaje con los resultados al usuario
-![plantilla2](feedback2.2)
+![plantilla2](feedback2.2.jpg)
 * Tercer feedback 🦁
 PLantilla 1 se solicita la información de la tarjeta
-![plantilla1](feedback3.1)
+![plantilla1](feedback3.1.jpg)
 PLantilla 2 se muestra mensaje con los resultados al usuario
-![plantilla2](img/feedback3.2.jpg)
+![plantilla2](feedback3.2.jpg)
 
 ### 2.6 Imagen del prototipo final
 El prototipo final desarrollado en Balsamiq
