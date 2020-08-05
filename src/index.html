@@ -11,23 +11,18 @@
   <form  id="formulario" action="">
 <!Creo un div mostrando el logo de la institución>
     <div >
-      <center>
         <img src="img/LOGOCARD.png" alt="logo" class="logoT" title="TERAPIA SOFIA" id="logo"/>
-      </center>
     </div>
 <!Creo una etiqueta donde se solita la información de la tarjeta>
-    <label for="info" class="info"><center><strong>Ingrese información sobre la tarjeta de crédito</strong> </center></label> <br/>
-<!Creo un div donde se mostrará la etiqueta ACEPTAMOS y las tarjetas que aceptamos>
+    <label for="info" class="info"><center><strong>INGRESE INFORMACIÓN SOBRE LA TARJETA</strong> </center></label> <br/>
+<!Creo un label donde se mostrará la etiqueta ACEPTAMOS y div para las tarjetas que aceptamos>
+  <label for="aceptamos" class="acepTarjeta">Aceptamos:</label><br/>
     <div class="aceptamos">
-      <label for="aceptamos"><strong>Aceptamos: </strong> </label>
-      <table>
+      <table class="tabTarjeta">
         <tr>
           <td>
-            <img src="img/visa.jpg" class="imagecardi" alt="tarjeta visa" id="visa"/>
+            <img src="img/visa.jpg" class="imagecardi" alt="tarjeta visa" id="visa"/><br/>
             <input type="radio" name="tarjeta">VISA
-          </td>
-          <td>
-            <label for="tarjetitas" class="relleno0"></strong> </label>
           </td>
           <td>
             <img src="img/Mastercard.jpg"  class="imagecardd"  alt="tarjeta mastercard"id="mastercard"/><br/>
@@ -38,37 +33,32 @@
     </div>
 <!Creo un div para pedir información sobre los nombres del titular de la tarjeta>
     <div class="nombre">
-      <center>
-        <label for="nombrespaciente"><strong>Titular de la tarjeta:</strong></label>
-        <input type="text" name="nombrespaciente"  id="nombrespaciente" class="nombrespaciente" autofocus>
-     </center>
+        <label for="nombrespaciente">Titular de la tarjeta:</label>
+        <input type="text" name="nombrespaciente"  id="nombrespaciente" class="nombrespaciente" required autofocus>
     </div>
 <!Creo un div para pedir información sobre el número de la tarjeta>
     <div class="number">
-     <label for="numberCard"><strong>Número de tarjeta  :</strong> </label>
-     <input type="text" maxlength="16" name="numerodetarjeta" class="box1" placeholder="Ingrese su número de tarjeta"
+     <label for="numberCard">Número de tarjeta  : </label>
+     <input type="text" maxlength="16" name="numerodetarjeta" class="numberBox" placeholder="Ingrese su número de tarjeta"
       id="numberCard" required >
     </div>
 <!Creo una tabla donde se pedirá información sobre mes y año de expiración>
-    <table>
+    <table class="tabMesAño">
       <tr>
         <td>
-          <label for="mesexpiracion" class="mesexpiraciontext"><strong>Mes de expiración</strong> </label> <br/>
-          <input type="number" name="mesexpiracion" id="mesexpiracion" max="12" min="1" class="box2"required/>
+          <label for="mesexpiracion" class="mesexpiraciontext">Mes de expiración </label> <br/>
+          <input type="number" name="mesexpiracion" id="mesexpiracion" max="12" min="1" class="mesBox"required/>
         </td>
         <td>
-          <label for="mesexpiracion1" class="relleno"></strong> </label>
-        </td>
-        <td>
-          <label for="añoexpiracion" class="añoexpiraciontext"><strong>Año de expiración</strong> </label><br/>
-          <input type="text"name="añoexpiracion" class="box3" id="añoexpiracion" required/>
+          <label for="añoexpiracion" class="añoexpiraciontext">Año de expiración </label><br/>
+          <input type="text"name="añoexpiracion" class="añoBox" id="añoexpiracion" required/>
         </td>
       </tr>
     </table>
 <!Creo un dic pidiendo información del cvv>
     <div class="cvv">
-      <label for="cvv"><strong>CVV:</strong> </label>
-      <input type="text"maxlength="4" name="cvv" class="cvv" id="cvv" required >
+      <label for="cvv">CVV: </label>
+      <input type="text"maxlength="3" name="cvv" class="cvvBox" id="cvv" required >
     </div>
 <!Creo un boton para validar el número de tarjeta>
     <button id="validarNumber"> <span class="validarNumber">VALIDAR</span></button><br/>

@@ -1,6 +1,8 @@
+
 body {
 /* Origen de la imagen*/
-background-image:url("img/3200.jpg");
+background-image:url("img/fondo.jpg");
+/*Propiedad de trasparencia*/
 opacity: 0.8;
 /*La imagen no debe reprtirse*/
 background-repeat: no-repeat;
@@ -10,64 +12,134 @@ background-attachment: fixed;
 background-position: center center;
 /*La imagen ocupará el 100% */
 background-size: cover;
-/*Damos color mientras carga la imagen*/
- background-color: #464646;
+/*Propiedad para establecer el ancho del fondo*/
  width: 100%;
 }
-
-
-
 form{
-  margin: 180px 680px 280px 550px;
-  width:700px;
-  height: 1100px;
-	padding:16px;
+/*Propiedad para establecer el ancho del formulario*/
+  width:30%;
+/*Propiedad para establecer la altura del formulario*/
+  height:30%;
+/*Propiedad que define en 10px el radio de la esquina del formulario*/
 	border-radius:10px;
-  border-color: blue;
-  border: 1px dotted #999;
-	background-color:rgb(141, 211, 233);
+/*Propiedad para dar color al formulario*/
+	background-color:#66d9e8;
+/*Definir borde del formulario*/
+  border: 2px solid black;
+/*Marge del formulario*/
+  margin: 90px 0px 0px 650px;
 }
-
+.logoT {
+/*Ancho del logo */
+  width: 100px;
+/*Definir margen*/
+  margin: 30px 00px 20px 230px;
+}
 
 .info{
-  style= color:blue;
-   font-size: 20px;
+/*Tamaño del texto*/
+   font-size: 15px;
+   font-size:x-large;
+/*Negrita*/
    font-weight: bold;
-   font-family:sans-serif;
-   text-decoration: underline wavy black;
+/*Fuente*/
+   font-family:"Lucida" Grande, sans-serif;
+/*Subrayado*/
+   text-decoration: underline  black;
 }
 
-img {width: 100px; height: 40px
-  margin-left:auto;
-  margin-right: auto;
-  margin: 10px 9px 30px 10px;
+/*Sobre el contenedor aceptamos--fondo*/
+.aceptamos{
+  background-color: #ffec99;
 }
-
-.terapy{width: 400px; ;
-  margin-left:auto;
-  margin-right: auto;
+/*Sobre la etiqueta ACEPTAMOS*/
+.acepTarjeta{
+/*Ubicación*/
+  margin: 0px 40px 0px 50px;
+/*Fuente*/
+  font-family:serif;
+/*Tamaño*/
+  font-size:x-large;
 }
-
-.imagecardd{
-float: right;
-margin: 0px 120px 20px 0px;
+/*Sobre la tabla donde están las imágenes de tarjetas y el radio*/
+.tabTarjeta{
+  margin: 10px 40px 10px 100px;
 }
-
+/*Sobre la imagen visa*/
 .imagecardi{
-float: left;
-margin: 0px 20px 0px 120px;
+width: 30%;
+}
+/*Sobre la imagen mastercard*/
+.imagecardd{
+width: 40%;
+margin:0px 0px 0px 45px;
+}
+
+/*Sobre etiqueta y type de los nombres ingresados*/
+.nombre{
+  font-family:serif;
+  font-size:x-large;
+/*Alinear el div al centro - horizontalmente*/
+  text-align: center;
+/*Alinear el div verticalmemte*/
+  line-height:80px;
+}
+.nombrespaciente{
+  width: 200px;
+  height:30px;
+}
+
+/*Sobre etiqueta y type de los números ingresados*/
+.number{
+  font-family:serif;
+  font-size:x-large;
+/*Alinear el div al centro - horizontalmente*/
+    text-align: center;
+/*Alinear el div verticalmemte*/
+    line-height:80px;
+}
+.numberBox{
+  width: 200px;
+  height:30px;
+}
+
+/*Sobre el mes y año ingresado*/
+.tabMesAño{
+margin: 10px 40px 10px 100px;
 }
 
 .mesexpiraciontext{
-  font-family:monospace;
+  font-family:serif;
   font-size:large;
-
+  margin: 0px 0px 0px 20px;
   }
+.mesBox{
+  width: 60px;
+  height:30px;
+  margin: 0px 60px 0px 50px;
+}
 .añoexpiraciontext{
-  font-family:monospace;
+  font-family:serif;
   font-size:large;
-
+  margin: 0px 0px 0px 20px;
     }
+.añoBox{
+  width: 60px;
+  height:30px;
+  margin: 0px 30px 0px 50px;
+}
+/*Sobre el CVV*/
+.cvv{
+  font-family:serif;
+  font-size:x-large;
+  text-align: center;
+  line-height:80px;
+}
+.cvvBox{
+  width: 200px;
+  height:30px;
+}
+/*Sobre el botón VALIDAR*/
 button{
   display:block;
     margin-left: auto;
@@ -82,68 +154,34 @@ button{
     width: 70%;
 
 }
-
+/*Selecciona el botón*/
 button:hover{
   background: #24b080;
   border: 2px solid #24b080;
-  color: #fff;
+  color: #5f3dc4;
 }
-table{
-  display: block;
-  margin: 60px 90px 50px 120px;
-
-}
-.number{
+/*Sobre mostar saludo + nombres*/
+.mostrarnombre{
+  text-align:center;
   font-family:sans-serif;
   font-size:x-large;
-  margin: 60px 0px 0px 100px;
-  margin-right:auto;
-}
-.nombre{
-  font-family:serif;
-  font-size:x-large;
-  margin: 110px 0px 0px 100px;
-  margin-left:auto;
-}
-
-.box1{
-  margin: 0px 0px 0px 0px;
-  width: 200px;
-  height:30px;
-}
-.nombrespaciente{
-  margin: 0px 0px 0px 0px;
-  width: 200px;
-  height:30px;
-}
-
-.box2{
-  width: 60px;
-  height:30px;
-  margin: 0px 60px 0px 50px;
-}
-
-.box3{
-  width: 60px;
-  height:30px;
+  font-weight: bold;
+  color: #e64980;
   margin: 0px 30px 0px 50px;
 }
-.relleno{
-  margin: 0px 50px 0px 80px;
+/*Sobre mostrar enmascarado*/
+.mascara{
+    text-align:center;
+    font-family:sans-serif;
+    font-size:x-large;
+    font-weight: bold;
+    margin: 0px 30px 0px 50px;
 }
-
+/*Sobre mostrar alidación*/
 .valiNum{
   text-align:center;
   font-family:sans-serif;
   font-size:x-large;
   font-weight: bold;
   margin: 0px 50px 0px 50px;
-}
-
-.mascara{
-text-align:center;
-    font-family:sans-serif;
-    font-size:x-large;
-    font-weight: bold;
-    margin: 0px 30px 0px 50px;
 }
