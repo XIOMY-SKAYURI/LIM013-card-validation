@@ -1,10 +1,4 @@
 import validator from './validator.js';
-//Seleccionar el fomrulario del documento por medio del valor del atributo id
-//let form = document.getElementById("formulario")
-//Seleccionar la tarjeta -visa- por medio del valor del atributo id
-//let imgTarjetaVisa = document.getElementById("visa")
-//Seleccionar la tarjeta - mastercard- por medio del valor del atributo id
-//let imgTarjetaMastercard = document.getElementById("mastercard")
 //Seleccionar el boton de validación del documento por medio del valor del atributo id
 let validarnumber = document.getElementById("validarNumber");
 //Generar un evento para mostar monbres
@@ -43,9 +37,3 @@ let validarnumber = document.getElementById("validarNumber");
         return false;
       }
     })
-//Seleccionar el mes de expiración por medio del valor del atributo id
-//let mesIngresado = document.getElementById("mesexpiracion")
-//Seleccionar el año de expiración por medio del valor del atributo id
-//let añoIngresado = document.getElementById("añoexpiracion")
-//Seleccionar el cvv  por medio del valor del atributo id
-//let cvvIngresado = document.getElementById("cvv")

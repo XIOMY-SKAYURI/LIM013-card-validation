@@ -36,7 +36,6 @@ maskify: function(numberCard){
   let resultado = '';
   //Recorrer el string
   for (let i=0; i< numberCard.length;i++){
-      //  console.log(resultado);
   //Si la cadena recorrida es mayor o ingual a la longitud de la cadena menos 4
     if (i>=numberCard.length-4){
   //Entonces se debe arrojar el string recorrido
